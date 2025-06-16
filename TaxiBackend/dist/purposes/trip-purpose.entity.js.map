@@ -1,0 +1,1 @@
+{"version":3,"file":"trip-purpose.entity.js","sourceRoot":"","sources":["../../src/purposes/trip-purpose.entity.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,qCAAiE;AAG1D,IAAM,WAAW,GAAjB,MAAM,WAAW;IAEtB,EAAE,CAAS;IAGX,IAAI,CAAS;CACd,CAAA;AANY,kCAAW;AAEtB;IADC,IAAA,gCAAsB,GAAE;;uCACd;AAGX;IADC,IAAA,gBAAM,GAAE;;yCACI;sBALF,WAAW;IADvB,IAAA,gBAAM,EAAC,eAAe,CAAC;GACX,WAAW,CAMvB"}

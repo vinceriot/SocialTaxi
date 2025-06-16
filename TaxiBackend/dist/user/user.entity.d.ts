@@ -1,0 +1,30 @@
+import { Role } from '../roles/entities/roles.entity';
+import { Session } from '../auth/entities/session.entity';
+import { Order } from '../orders/entities/order.entity';
+import { UserAddress } from '../address/user-address.entity';
+import { ChatParticipant } from '../chat/entities/chat-participant.entity';
+import { ChatMessage } from '../chat/entities/chat-message.entity';
+import { MessageRead } from '../chat/entities/message-read.entity';
+export declare class User {
+    id: string;
+    firstName: string;
+    lastName: string;
+    surname: string;
+    phoneNumber: string;
+    email: string;
+    passwordHash: string;
+    driverLicense: string;
+    driverLicenseIssuedAt: Date;
+    driverLicenseExpiresAt: Date;
+    rating: number;
+    isActive: boolean;
+    createdAt: Date;
+    updatedAt: Date;
+    roles: Role[];
+    sessions: Session[];
+    orders: Order[];
+    addresses: UserAddress[];
+    chatParticipants: ChatParticipant[];
+    sentMessages: ChatMessage[];
+    readMessages: MessageRead[];
+}
